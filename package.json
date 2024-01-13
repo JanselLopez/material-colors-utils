@@ -1,0 +1,22 @@
+{
+  "name": "material-colors-utils",
+  "version": "0.0.1",
+  "description": "Material color palettes. Random colors and palettes\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001bco\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C. Random colors and palettes by name or any string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "color",
+    "palette",
+    "design",
+    "javascript",
+    "random",
+    "randomly",
+    "randomize",
+    "name",
+    "utility"
+  ],
+  "author": "JanselLopez",
+  "license": "MIT"
+}
