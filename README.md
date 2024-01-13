@@ -14,7 +14,7 @@ npm i material-colors-utils
 ## Usage
 ### Get random color
 ```js
-import { getRandomColor } from "random-color-by-name";
+import { getRandomColor } from "material-colors-utils";
 //Param: Color variant
 getRandomColor(300)//Ex: #64B5F6
 //Default is 500
@@ -23,15 +23,7 @@ getRandomColor()//Ex: #2196F3
 
 ### Get random palette
 ```js
-import { getRandomColor } from "random-color-by-name";
-//Param: Color variant
-getRandomColor(300)//Ex: #64B5F6
-//Default is 500
-getRandomColor()//Ex: #2196F3
-```
-
-```js
-import { getRandomPalette } from "random-color-by-name";
+import { getRandomPalette } from "material-colors-utils";
 console.log({palette:getRandomPalette()})
 //{
 //    palette:{
@@ -55,7 +47,7 @@ console.log({palette:getRandomPalette()})
 
 ### Get random palette by string
 ```js
-import { getRandomPaletteByString } from "random-color-by-name";
+import { getRandomPaletteByString } from "material-colors-utils";
 console.log({palette:getRandomPaletteByString("janselALB")});
 //{
 //    palette:{
@@ -78,7 +70,7 @@ console.log({palette:getRandomPaletteByString("janselALB")});
 ```
 ### Get random color by string
 ```js
-import { getRandomColorByString } from "random-color-by-name";
+import { getRandomColorByString } from "material-colors-utils";
 //Param: Color variant
 getRandomColorByString("janselALB",300)//Ex: #64B5F6
 //Default is 500
@@ -87,7 +79,7 @@ getRandomColorByString("janselALB")//Ex: #2196F3
 
 ### Get palette
 ```js
-import { blue } from "random-color-by-name";
+import { blue } from "material-colors-utils";
 console.log({blue})
 //{
 //    blue:{
@@ -111,7 +103,7 @@ console.log({blue})
 ### Get color
 #### Example
 ```js
-import { blue } from "random-color-by-name";
+import { blue } from "material-colors-utils";
 console.log(blue[500])//#2196F3
 ```
 ### Palettes
